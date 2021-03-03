@@ -1,0 +1,67 @@
+
+
+
+/* switcher */
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.switcher ul.color-switcher li {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+}
+.switcher ul.color-switcher li:first-child {
+    background-color: red;
+}
+.switcher ul.color-switcher li:nth-child(2) {
+    background-color: green;
+}
+.switcher ul.color-switcher li:nth-child(3) {
+    background-color: purple;
+}
+.switcher ul.color-switcher li:nth-child(4) {
+    background-color: black;
+}
+.switcher .switcher-head {
+    color: red ;
+}
+
+ .switcher  .switcher-div {
+    background-color: red;
+    color: white;
+}
+.red.switcher .switcher-head {
+    color: red ;
+}
+
+.red.switcher .switcher-div {
+    background-color: red;
+    color: white;
+}
+.green.switcher .switcher-head {
+    color: green ;
+}
+
+.green.switcher .switcher-div {
+    background-color: green;
+    color: white;
+}
+.purple.switcher .switcher-head {
+    color: purple ;
+}
+
+.purple.switcher  .switcher-div {
+    background-color: purple;
+    color: white;
+}
+.black.switcher .switcher-head {
+    color: black ;
+}
+
+.black.switcher  .switcher-div {
+    background-color: black;
+    color: white;
+}
